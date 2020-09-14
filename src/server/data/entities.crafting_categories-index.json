@@ -1,0 +1,1353 @@
+{
+  "crafting": [
+    "bob-character-balanced-2",
+    "bob-character-builder",
+    "bob-character-builder-2",
+    "bob-character-engineer",
+    "bob-character-fighter",
+    "bob-character-fighter-2",
+    "bob-character-miner",
+    "bob-character-miner-2",
+    "bob-character-prospector",
+    "character",
+    "steam-assembling-machine",
+    "burner-assembling-machine",
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "assembling-machine-4",
+    "assembling-machine-5",
+    "assembling-machine-6",
+    "crash-site-assembling-machine-1-repaired",
+    "crash-site-assembling-machine-2-repaired",
+    "automated-factory-mk01",
+    "automated-factory-mk02",
+    "automated-factory-mk03",
+    "automated-factory-mk04",
+    "ye_fassembly1",
+    "ye_fassembly2",
+    "ye_fassembly_sp",
+    "bob-character-balanced-2-jetpack",
+    "bob-character-builder-2-jetpack",
+    "bob-character-builder-jetpack",
+    "bob-character-engineer-jetpack",
+    "bob-character-fighter-2-jetpack",
+    "bob-character-fighter-jetpack",
+    "bob-character-miner-2-jetpack",
+    "bob-character-miner-jetpack",
+    "bob-character-prospector-jetpack",
+    "character-jetpack",
+    "farl_player",
+    "farl_player-jetpack",
+    "fatcontroller",
+    "fatcontroller-jetpack"
+  ],
+  "electronics": [
+    "bob-character-balanced-2",
+    "bob-character-builder",
+    "bob-character-builder-2",
+    "bob-character-engineer",
+    "bob-character-fighter",
+    "bob-character-fighter-2",
+    "bob-character-miner",
+    "bob-character-miner-2",
+    "bob-character-prospector",
+    "character",
+    "steam-assembling-machine",
+    "burner-assembling-machine",
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "assembling-machine-4",
+    "assembling-machine-5",
+    "assembling-machine-6",
+    "electronics-machine-1",
+    "electronics-machine-2",
+    "electronics-machine-3",
+    "crash-site-assembling-machine-1-repaired",
+    "crash-site-assembling-machine-2-repaired",
+    "automated-factory-mk01",
+    "automated-factory-mk02",
+    "automated-factory-mk03",
+    "automated-factory-mk04",
+    "ye_fassembly1",
+    "ye_fassembly2",
+    "ye_fassembly_sp",
+    "bob-character-balanced-2-jetpack",
+    "bob-character-builder-2-jetpack",
+    "bob-character-builder-jetpack",
+    "bob-character-engineer-jetpack",
+    "bob-character-fighter-2-jetpack",
+    "bob-character-fighter-jetpack",
+    "bob-character-miner-2-jetpack",
+    "bob-character-miner-jetpack",
+    "bob-character-prospector-jetpack",
+    "character-jetpack",
+    "farl_player",
+    "farl_player-jetpack",
+    "fatcontroller",
+    "fatcontroller-jetpack"
+  ],
+  "handcrafting": [
+    "bob-character-balanced-2",
+    "bob-character-builder",
+    "bob-character-builder-2",
+    "bob-character-engineer",
+    "bob-character-fighter",
+    "bob-character-fighter-2",
+    "bob-character-miner",
+    "bob-character-miner-2",
+    "bob-character-prospector",
+    "character",
+    "bob-character-balanced-2-jetpack",
+    "bob-character-builder-2-jetpack",
+    "bob-character-builder-jetpack",
+    "bob-character-engineer-jetpack",
+    "bob-character-fighter-2-jetpack",
+    "bob-character-fighter-jetpack",
+    "bob-character-miner-2-jetpack",
+    "bob-character-miner-jetpack",
+    "bob-character-prospector-jetpack",
+    "character-jetpack",
+    "farl_player",
+    "farl_player-jetpack",
+    "yarm-remote-viewer",
+    "yarm-remote-viewer-jetpack",
+    "fatcontroller",
+    "fatcontroller-jetpack"
+  ],
+  "mixing-furnace": [
+    "bob-character-engineer",
+    "bob-character-miner",
+    "bob-character-miner-2",
+    "bob-character-prospector",
+    "stone-mixing-furnace",
+    "steel-mixing-furnace",
+    "fluid-mixing-furnace",
+    "electric-mixing-furnace",
+    "electric-chemical-mixing-furnace",
+    "electric-chemical-mixing-furnace-2",
+    "bob-character-engineer-jetpack",
+    "bob-character-miner-2-jetpack",
+    "bob-character-miner-jetpack",
+    "bob-character-prospector-jetpack"
+  ],
+  "smelting": [
+    "bob-character-engineer",
+    "bob-character-miner",
+    "bob-character-miner-2",
+    "bob-character-prospector",
+    "fluid-furnace",
+    "industrial-furnace",
+    "stone-mixing-furnace",
+    "steel-mixing-furnace",
+    "fluid-mixing-furnace",
+    "electric-chemical-furnace",
+    "stone-furnace",
+    "steel-furnace",
+    "electric-furnace",
+    "electric-furnace-2",
+    "electric-furnace-3",
+    "electric-mixing-furnace",
+    "electric-chemical-mixing-furnace",
+    "electric-chemical-mixing-furnace-2",
+    "advanced-foundry-mk01",
+    "advanced-foundry-mk02",
+    "advanced-foundry-mk03",
+    "advanced-foundry-mk04",
+    "bob-character-engineer-jetpack",
+    "bob-character-miner-2-jetpack",
+    "bob-character-miner-jetpack",
+    "bob-character-prospector-jetpack"
+  ],
+  "angels-manual-crafting": [
+    "character",
+    "character-jetpack"
+  ],
+  "unstacking": [
+    "character",
+    "basic-transport-belt-beltbox",
+    "transport-belt-beltbox",
+    "fast-transport-belt-beltbox",
+    "express-transport-belt-beltbox",
+    "turbo-transport-belt-beltbox",
+    "ultimate-transport-belt-beltbox"
+  ],
+  "stacking": [
+    "basic-transport-belt-beltbox",
+    "transport-belt-beltbox",
+    "fast-transport-belt-beltbox",
+    "express-transport-belt-beltbox",
+    "turbo-transport-belt-beltbox",
+    "ultimate-transport-belt-beltbox"
+  ],
+  "water-well-production": [
+    "water-well-pump"
+  ],
+  "chemical-furnace": [
+    "stone-chemical-furnace",
+    "steel-chemical-furnace",
+    "fluid-chemical-furnace",
+    "electric-chemical-furnace",
+    "electric-chemical-mixing-furnace",
+    "electric-chemical-mixing-furnace-2"
+  ],
+  "centrifuging": [
+    "centrifuge",
+    "centrifuge-mk2",
+    "centrifuge-mk3",
+    "centrifuge-2",
+    "centrifuge-3"
+  ],
+  "flaring": [
+    "vent-stack",
+    "flare-stack"
+  ],
+  "incineration": [
+    "incinerator",
+    "electric-incinerator"
+  ],
+  "fuel-incineration": [
+    "electric-incinerator"
+  ],
+  "facility": [
+    "facility-mk1",
+    "facility-mk2",
+    "facility-mk3"
+  ],
+  "particle-accelerator": [
+    "particle-accelerator-mk1",
+    "particle-accelerator-mk2"
+  ],
+  "advanced-crafting": [
+    "steam-assembling-machine",
+    "burner-assembling-machine",
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "assembling-machine-4",
+    "assembling-machine-5",
+    "assembling-machine-6",
+    "crash-site-assembling-machine-1-repaired",
+    "crash-site-assembling-machine-2-repaired",
+    "automated-factory-mk01",
+    "automated-factory-mk02",
+    "automated-factory-mk03",
+    "automated-factory-mk04",
+    "ye_fassembly1",
+    "ye_fassembly2",
+    "ye_fassembly_sp"
+  ],
+  "basic-crafting": [
+    "steam-assembling-machine",
+    "burner-assembling-machine",
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "crash-site-assembling-machine-1-repaired",
+    "crash-site-assembling-machine-2-repaired"
+  ],
+  "crafting-machine": [
+    "steam-assembling-machine",
+    "burner-assembling-machine",
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "assembling-machine-4",
+    "assembling-machine-5",
+    "assembling-machine-6",
+    "crash-site-assembling-machine-1-repaired",
+    "crash-site-assembling-machine-2-repaired",
+    "automated-factory-mk01",
+    "automated-factory-mk02",
+    "automated-factory-mk03",
+    "automated-factory-mk04",
+    "ye_fassembly1",
+    "ye_fassembly2",
+    "ye_fassembly_sp"
+  ],
+  "crafting-with-fluid": [
+    "steam-assembling-machine",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "assembling-machine-4",
+    "assembling-machine-5",
+    "assembling-machine-6",
+    "automated-factory-mk01",
+    "automated-factory-mk02",
+    "automated-factory-mk03",
+    "automated-factory-mk04",
+    "ye_canmachine",
+    "ye_fassembly2",
+    "ye_fassembly_sp"
+  ],
+  "distillery": [
+    "steam-assembling-machine",
+    "chemical-plant-flipflopped",
+    "chemical-plant-flipped",
+    "chemical-plant-flopped",
+    "chemical-plant-2-flipflopped",
+    "chemical-plant-2-flipped",
+    "chemical-plant-2-flopped",
+    "chemical-plant-3-flipflopped",
+    "chemical-plant-3-flipped",
+    "chemical-plant-3-flopped",
+    "chemical-plant-4-flipflopped",
+    "chemical-plant-4-flipped",
+    "chemical-plant-4-flopped",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "assembling-machine-4",
+    "assembling-machine-5",
+    "assembling-machine-6",
+    "bob-distillery",
+    "bob-distillery-2",
+    "bob-distillery-3",
+    "bob-distillery-4",
+    "bob-distillery-5",
+    "chemical-plant",
+    "chemical-plant-2",
+    "chemical-plant-3",
+    "chemical-plant-4",
+    "angels-chemical-plant",
+    "angels-chemical-plant-flipflopped",
+    "angels-chemical-plant-flipped",
+    "angels-chemical-plant-flopped",
+    "angels-chemical-plant-2",
+    "angels-chemical-plant-2-flipflopped",
+    "angels-chemical-plant-2-flipped",
+    "angels-chemical-plant-2-flopped",
+    "angels-chemical-plant-3",
+    "angels-chemical-plant-3-flipflopped",
+    "angels-chemical-plant-3-flipped",
+    "angels-chemical-plant-3-flopped",
+    "angels-chemical-plant-4",
+    "angels-chemical-plant-4-flipflopped",
+    "angels-chemical-plant-4-flipped",
+    "angels-chemical-plant-4-flopped",
+    "advanced-chemical-plant",
+    "advanced-chemical-plant-flipflopped",
+    "advanced-chemical-plant-flipped",
+    "advanced-chemical-plant-flopped",
+    "advanced-chemical-plant-2",
+    "advanced-chemical-plant-2-flipflopped",
+    "advanced-chemical-plant-2-flipped",
+    "advanced-chemical-plant-2-flopped",
+    "automated-factory-mk01",
+    "automated-factory-mk02",
+    "automated-factory-mk03",
+    "automated-factory-mk04",
+    "ye_canmachine",
+    "ye_fassembly2",
+    "ye_fassembly_sp"
+  ],
+  "electronics-machine": [
+    "steam-assembling-machine",
+    "burner-assembling-machine",
+    "assembling-machine-1",
+    "assembling-machine-2",
+    "assembling-machine-3",
+    "assembling-machine-4",
+    "assembling-machine-5",
+    "assembling-machine-6",
+    "electronics-machine-1",
+    "electronics-machine-2",
+    "electronics-machine-3",
+    "crash-site-assembling-machine-1-repaired",
+    "crash-site-assembling-machine-2-repaired",
+    "automated-factory-mk01",
+    "automated-factory-mk02",
+    "automated-factory-mk03",
+    "automated-factory-mk04",
+    "ye_fassembly1",
+    "ye_fassembly2",
+    "ye_fassembly_sp"
+  ],
+  "electrolysis": [
+    "electrolyser-flipflopped",
+    "electrolyser-flipped",
+    "electrolyser-flopped",
+    "electrolyser-2-flipflopped",
+    "electrolyser-2-flipped",
+    "electrolyser-2-flopped",
+    "electrolyser-3-flipflopped",
+    "electrolyser-3-flipped",
+    "electrolyser-3-flopped",
+    "electrolyser-4-flipflopped",
+    "electrolyser-4-flipped",
+    "electrolyser-4-flopped",
+    "electrolyser",
+    "electrolyser-2",
+    "electrolyser-3",
+    "electrolyser-4",
+    "electrolyser-5",
+    "angels-electrolyser",
+    "angels-electrolyser-flipflopped",
+    "angels-electrolyser-flipped",
+    "angels-electrolyser-flopped",
+    "angels-electrolyser-2",
+    "angels-electrolyser-2-flipflopped",
+    "angels-electrolyser-2-flipped",
+    "angels-electrolyser-2-flopped",
+    "angels-electrolyser-3",
+    "angels-electrolyser-3-flipflopped",
+    "angels-electrolyser-3-flipped",
+    "angels-electrolyser-3-flopped",
+    "angels-electrolyser-4",
+    "angels-electrolyser-4-flipflopped",
+    "angels-electrolyser-4-flipped",
+    "angels-electrolyser-4-flopped"
+  ],
+  "oil-processing": [
+    "oil-refinery-flipflopped",
+    "oil-refinery-flipped",
+    "oil-refinery-flopped",
+    "oil-refinery",
+    "oil-refinery-2",
+    "oil-refinery-3",
+    "oil-refinery-4",
+    "oil-refinery-2-flipflopped",
+    "oil-refinery-2-flipped",
+    "oil-refinery-2-flopped",
+    "oil-refinery-3-flipflopped",
+    "oil-refinery-3-flipped",
+    "oil-refinery-3-flopped",
+    "oil-refinery-4-flipflopped",
+    "oil-refinery-4-flipped",
+    "oil-refinery-4-flopped"
+  ],
+  "barrelling": [
+    "water-pump",
+    "water-pump-2",
+    "water-pump-3",
+    "water-pump-4"
+  ],
+  "water-pump": [
+    "water-pump",
+    "water-pump-2",
+    "water-pump-3",
+    "water-pump-4"
+  ],
+  "air-pump": [
+    "air-pump",
+    "air-pump-2",
+    "air-pump-3",
+    "air-pump-4"
+  ],
+  "void-fluid": [
+    "void-pump"
+  ],
+  "bob-greenhouse": [
+    "bob-greenhouse"
+  ],
+  "fuel-processing": [
+    "fuel-processor"
+  ],
+  "rocket-building": [
+    "rocket-silo"
+  ],
+  "ore-sorting": [
+    "ore-sorting-facility",
+    "ore-sorting-facility-2",
+    "ore-sorting-facility-3",
+    "ore-sorting-facility-4"
+  ],
+  "ore-sorting-t1": [
+    "burner-ore-crusher",
+    "ore-crusher",
+    "ore-crusher-2",
+    "ore-crusher-3"
+  ],
+  "ore-sorting-t2": [
+    "ore-floatation-cell",
+    "ore-floatation-cell-2",
+    "ore-floatation-cell-3"
+  ],
+  "ore-sorting-t3": [
+    "ore-leaching-plant",
+    "ore-leaching-plant-2",
+    "ore-leaching-plant-3"
+  ],
+  "ore-sorting-t4": [
+    "ore-refinery",
+    "ore-refinery-2"
+  ],
+  "ore-sorting-t1-5": [
+    "ore-powderizer",
+    "ore-powderizer-2",
+    "ore-powderizer-3"
+  ],
+  "ore-sorting-t3-5": [
+    "electro-whinning-cell",
+    "electro-whinning-cell-flipflopped",
+    "electro-whinning-cell-flipped",
+    "electro-whinning-cell-flopped",
+    "electro-whinning-cell-2",
+    "electro-whinning-cell-2-flipflopped",
+    "electro-whinning-cell-2-flipped",
+    "electro-whinning-cell-2-flopped",
+    "electro-whinning-cell-3",
+    "electro-whinning-cell-3-flipflopped",
+    "electro-whinning-cell-3-flipped",
+    "electro-whinning-cell-3-flopped"
+  ],
+  "filtering": [
+    "filtration-unit",
+    "filtration-unit-flipflopped",
+    "filtration-unit-flipped",
+    "filtration-unit-flopped",
+    "filtration-unit-2",
+    "filtration-unit-2-flipflopped",
+    "filtration-unit-2-flipped",
+    "filtration-unit-2-flopped"
+  ],
+  "crystallizing": [
+    "crystallizer",
+    "crystallizer-2"
+  ],
+  "ore-processing": [
+    "ore-processing-machine",
+    "ore-processing-machine-2",
+    "ore-processing-machine-3",
+    "ore-processing-machine-4"
+  ],
+  "pellet-pressing": [
+    "pellet-press",
+    "pellet-press-2",
+    "pellet-press-3",
+    "pellet-press-4"
+  ],
+  "powder-mixing": [
+    "powder-mixer",
+    "powder-mixer-2",
+    "powder-mixer-3",
+    "powder-mixer-4"
+  ],
+  "blast-smelting": [
+    "blast-furnace",
+    "blast-furnace-2",
+    "blast-furnace-3",
+    "blast-furnace-4"
+  ],
+  "chemical-smelting": [
+    "angels-chemical-furnace",
+    "angels-chemical-furnace-2",
+    "angels-chemical-furnace-3",
+    "angels-chemical-furnace-4"
+  ],
+  "induction-smelting": [
+    "induction-furnace",
+    "induction-furnace-2",
+    "induction-furnace-3",
+    "induction-furnace-4"
+  ],
+  "casting": [
+    "casting-machine",
+    "casting-machine-2",
+    "casting-machine-3",
+    "casting-machine-4"
+  ],
+  "strand-casting": [
+    "strand-casting-machine",
+    "strand-casting-machine-2",
+    "strand-casting-machine-3",
+    "strand-casting-machine-4"
+  ],
+  "sintering": [
+    "sintering-oven",
+    "sintering-oven-2",
+    "sintering-oven-3",
+    "sintering-oven-4"
+  ],
+  "water-treatment": [
+    "hydro-plant",
+    "hydro-plant-flipflopped",
+    "hydro-plant-flipped",
+    "hydro-plant-flopped",
+    "hydro-plant-2",
+    "hydro-plant-2-flipflopped",
+    "hydro-plant-2-flipped",
+    "hydro-plant-2-flopped",
+    "hydro-plant-3",
+    "hydro-plant-3-flipflopped",
+    "hydro-plant-3-flipped",
+    "hydro-plant-3-flopped"
+  ],
+  "angels-water-void": [
+    "clarifier"
+  ],
+  "salination-plant": [
+    "salination-plant",
+    "salination-plant-2"
+  ],
+  "washing-plant": [
+    "washing-plant",
+    "washing-plant-2"
+  ],
+  "sluicing": [
+    "sluicer",
+    "sluicer-2"
+  ],
+  "petrochem-boiler": [
+    "angels-electric-boiler",
+    "angels-electric-boiler-2",
+    "angels-electric-boiler-3"
+  ],
+  "cooling": [
+    "cooling-tower",
+    "cooling-tower-mk01",
+    "cooling-tower-mk02"
+  ],
+  "petrochem-electrolyser": [
+    "angels-electrolyser",
+    "angels-electrolyser-flipflopped",
+    "angels-electrolyser-flipped",
+    "angels-electrolyser-flopped",
+    "angels-electrolyser-2",
+    "angels-electrolyser-2-flipflopped",
+    "angels-electrolyser-2-flipped",
+    "angels-electrolyser-2-flopped",
+    "angels-electrolyser-3",
+    "angels-electrolyser-3-flipflopped",
+    "angels-electrolyser-3-flipped",
+    "angels-electrolyser-3-flopped",
+    "angels-electrolyser-4",
+    "angels-electrolyser-4-flipflopped",
+    "angels-electrolyser-4-flipped",
+    "angels-electrolyser-4-flopped"
+  ],
+  "petrochem-air-filtering": [
+    "angels-air-filter",
+    "angels-air-filter-2"
+  ],
+  "liquifying": [
+    "liquifier",
+    "liquifier-2",
+    "liquifier-3",
+    "liquifier-4",
+    "angels-chemical-plant",
+    "angels-chemical-plant-flipflopped",
+    "angels-chemical-plant-flipped",
+    "angels-chemical-plant-flopped",
+    "angels-chemical-plant-2",
+    "angels-chemical-plant-2-flipflopped",
+    "angels-chemical-plant-2-flipped",
+    "angels-chemical-plant-2-flopped",
+    "angels-chemical-plant-3",
+    "angels-chemical-plant-3-flipflopped",
+    "angels-chemical-plant-3-flipped",
+    "angels-chemical-plant-3-flopped",
+    "angels-chemical-plant-4",
+    "angels-chemical-plant-4-flipflopped",
+    "angels-chemical-plant-4-flipped",
+    "angels-chemical-plant-4-flopped",
+    "advanced-chemical-plant",
+    "advanced-chemical-plant-flipflopped",
+    "advanced-chemical-plant-flipped",
+    "advanced-chemical-plant-flopped",
+    "advanced-chemical-plant-2",
+    "advanced-chemical-plant-2-flipflopped",
+    "advanced-chemical-plant-2-flipped",
+    "advanced-chemical-plant-2-flopped"
+  ],
+  "chemistry": [
+    "angels-chemical-plant",
+    "angels-chemical-plant-flipflopped",
+    "angels-chemical-plant-flipped",
+    "angels-chemical-plant-flopped",
+    "angels-chemical-plant-2",
+    "angels-chemical-plant-2-flipflopped",
+    "angels-chemical-plant-2-flipped",
+    "angels-chemical-plant-2-flopped",
+    "angels-chemical-plant-3",
+    "angels-chemical-plant-3-flipflopped",
+    "angels-chemical-plant-3-flipped",
+    "angels-chemical-plant-3-flopped",
+    "angels-chemical-plant-4",
+    "angels-chemical-plant-4-flipflopped",
+    "angels-chemical-plant-4-flipped",
+    "angels-chemical-plant-4-flopped",
+    "advanced-chemical-plant",
+    "advanced-chemical-plant-flipflopped",
+    "advanced-chemical-plant-flipped",
+    "advanced-chemical-plant-flopped",
+    "advanced-chemical-plant-2",
+    "advanced-chemical-plant-2-flipflopped",
+    "advanced-chemical-plant-2-flipped",
+    "advanced-chemical-plant-2-flopped"
+  ],
+  "advanced-chemistry": [
+    "advanced-chemical-plant",
+    "advanced-chemical-plant-flipflopped",
+    "advanced-chemical-plant-flipped",
+    "advanced-chemical-plant-flopped",
+    "advanced-chemical-plant-2",
+    "advanced-chemical-plant-2-flipflopped",
+    "advanced-chemical-plant-2-flipped",
+    "advanced-chemical-plant-2-flopped"
+  ],
+  "gas-refining": [
+    "gas-refinery-small",
+    "gas-refinery-small-flipflopped",
+    "gas-refinery-small-flipped",
+    "gas-refinery-small-flopped",
+    "gas-refinery-small-2",
+    "gas-refinery-small-2-flipflopped",
+    "gas-refinery-small-2-flipped",
+    "gas-refinery-small-2-flopped",
+    "gas-refinery-small-3",
+    "gas-refinery-small-3-flipflopped",
+    "gas-refinery-small-3-flipped",
+    "gas-refinery-small-3-flopped",
+    "gas-refinery-small-4",
+    "gas-refinery-small-4-flipflopped",
+    "gas-refinery-small-4-flipped",
+    "gas-refinery-small-4-flopped",
+    "gas-refinery",
+    "gas-refinery-flipflopped",
+    "gas-refinery-flipped",
+    "gas-refinery-flopped",
+    "gas-refinery-2",
+    "gas-refinery-2-flipflopped",
+    "gas-refinery-2-flipped",
+    "gas-refinery-2-flopped",
+    "gas-refinery-3",
+    "gas-refinery-3-flipflopped",
+    "gas-refinery-3-flipped",
+    "gas-refinery-3-flopped",
+    "gas-refinery-4",
+    "gas-refinery-4-flipflopped",
+    "gas-refinery-4-flipped",
+    "gas-refinery-4-flopped"
+  ],
+  "petrochem-separation": [
+    "separator",
+    "separator-flipflopped",
+    "separator-flipped",
+    "separator-flopped",
+    "separator-2",
+    "separator-2-flipflopped",
+    "separator-2-flipped",
+    "separator-2-flopped",
+    "separator-3",
+    "separator-3-flipflopped",
+    "separator-3-flipped",
+    "separator-3-flopped",
+    "separator-4",
+    "separator-4-flipflopped",
+    "separator-4-flipped",
+    "separator-4-flopped"
+  ],
+  "steam-cracking": [
+    "steam-cracker",
+    "steam-cracker-flipflopped",
+    "steam-cracker-flipped",
+    "steam-cracker-flopped",
+    "steam-cracker-2",
+    "steam-cracker-2-flipflopped",
+    "steam-cracker-2-flipped",
+    "steam-cracker-2-flopped",
+    "steam-cracker-3",
+    "steam-cracker-3-flipflopped",
+    "steam-cracker-3-flipped",
+    "steam-cracker-3-flopped",
+    "steam-cracker-4",
+    "steam-cracker-4-flipflopped",
+    "steam-cracker-4-flipped",
+    "steam-cracker-4-flopped"
+  ],
+  "angels-chemical-void": [
+    "angels-flare-stack"
+  ],
+  "barreling-pump": [
+    "barreling-pump"
+  ],
+  "angels-converter": [
+    "valve-converter"
+  ],
+  "bio-processing": [
+    "algae-farm",
+    "algae-farm-2",
+    "algae-farm-3"
+  ],
+  "angels-tree": [
+    "bio-generator-temperate-1",
+    "bio-generator-swamp-1",
+    "bio-generator-desert-1"
+  ],
+  "angels-tree-temperate": [
+    "bio-generator-temperate-1"
+  ],
+  "angels-tree-swamp": [
+    "bio-generator-swamp-1"
+  ],
+  "angels-tree-desert": [
+    "bio-generator-desert-1"
+  ],
+  "angels-arboretum": [
+    "bio-arboretum-1"
+  ],
+  "basic-farming": [
+    "crop-farm"
+  ],
+  "desert-farming": [
+    "crop-farm",
+    "desert-farm"
+  ],
+  "swamp-farming": [
+    "crop-farm",
+    "swamp-farm"
+  ],
+  "temperate-farming": [
+    "crop-farm",
+    "temperate-farm"
+  ],
+  "seed-extractor": [
+    "seed-extractor"
+  ],
+  "angels-bio-void": [
+    "composter"
+  ],
+  "bio-processor": [
+    "bio-processor"
+  ],
+  "bio-pressing": [
+    "bio-press"
+  ],
+  "nutrient-extractor": [
+    "nutrient-extractor"
+  ],
+  "bio-refugium-fish": [
+    "bio-refugium-fish"
+  ],
+  "bio-butchery": [
+    "bio-butchery"
+  ],
+  "bio-hatchery": [
+    "bio-hatchery"
+  ],
+  "bio-refugium-puffer": [
+    "bio-refugium-puffer"
+  ],
+  "bio-refugium-biter": [
+    "bio-refugium-biter"
+  ],
+  "bio-refugium-hogger": [
+    "bio-refugium-hogger"
+  ],
+  "glassworks": [
+    "glassworks-mk01",
+    "glassworks-mk02",
+    "glassworks-mk03",
+    "glassworks-mk04"
+  ],
+  "advanced-foundry": [
+    "advanced-foundry-mk01",
+    "advanced-foundry-mk02",
+    "advanced-foundry-mk03",
+    "advanced-foundry-mk04"
+  ],
+  "ground-borer": [
+    "ground-borer",
+    "ground-borer-mk02",
+    "ground-borer-mk03",
+    "ground-borer-mk04"
+  ],
+  "wpu": [
+    "wpu",
+    "wpu-mk02",
+    "wpu-mk03",
+    "wpu-mk04"
+  ],
+  "ball-mill": [
+    "ball-mill-mk01",
+    "ball-mill-mk02",
+    "ball-mill-mk03",
+    "ball-mill-mk04"
+  ],
+  "carbonfilter": [
+    "carbon-filter",
+    "carbon-filter-mk02",
+    "carbon-filter-mk03",
+    "carbon-filter-mk04"
+  ],
+  "classifier": [
+    "classifier",
+    "classifier-mk02",
+    "classifier-mk03",
+    "classifier-mk04"
+  ],
+  "desulfurization": [
+    "desulfurizator-unit",
+    "desulfurizator-unit-mk02",
+    "desulfurizator-unit-mk03",
+    "desulfurizator-unit-mk04"
+  ],
+  "distilator": [
+    "distilator",
+    "distilator-mk02",
+    "distilator-mk03",
+    "distilator-mk04"
+  ],
+  "evaporator": [
+    "evaporator",
+    "evaporator-mk02",
+    "evaporator-mk03",
+    "evaporator-mk04"
+  ],
+  "fluid-separator": [
+    "fluid-separator",
+    "fluid-separator-mk02",
+    "fluid-separator-mk03",
+    "fluid-separator-mk04"
+  ],
+  "fts-reactor": [
+    "fts-reactor",
+    "fts-reactor-mk02",
+    "fts-reactor-mk03",
+    "fts-reactor-mk04"
+  ],
+  "gasifier": [
+    "gasifier",
+    "gasifier-mk02",
+    "gasifier-mk03",
+    "gasifier-mk04"
+  ],
+  "hpf": [
+    "hpf",
+    "hpf-mk02",
+    "hpf-mk03",
+    "hpf-mk04"
+  ],
+  "methanol": [
+    "methanol-reactor",
+    "methanol-reactor-mk02",
+    "methanol-reactor-mk03",
+    "methanol-reactor-mk04"
+  ],
+  "olefin": [
+    "olefin-plant",
+    "olefin-plant-mk02",
+    "olefin-plant-mk03",
+    "olefin-plant-mk04"
+  ],
+  "crusher": [
+    "jaw-crusher",
+    "jaw-crusher-mk02",
+    "jaw-crusher-mk03",
+    "jaw-crusher-mk04"
+  ],
+  "combustion": [
+    "power-house",
+    "power-house-mk02",
+    "power-house-mk03",
+    "power-house-mk04"
+  ],
+  "quenching-tower": [
+    "quenching-tower",
+    "quenching-tower-mk02",
+    "quenching-tower-mk03",
+    "quenching-tower-mk04"
+  ],
+  "rectisol": [
+    "rectisol",
+    "rectisol-mk02",
+    "rectisol-mk03",
+    "rectisol-mk04"
+  ],
+  "solid-separator": [
+    "solid-separator",
+    "solid-separator-mk02",
+    "solid-separator-mk03",
+    "solid-separator-mk04"
+  ],
+  "tar": [
+    "tar-processing-unit",
+    "tar-processing-unit-mk02",
+    "tar-processing-unit-mk03",
+    "tar-processing-unit-mk04"
+  ],
+  "washer": [
+    "washer",
+    "washer-mk02",
+    "washer-mk03",
+    "washer-mk04"
+  ],
+  "co2": [
+    "co2-absorber"
+  ],
+  "fawogae": [
+    "fawogae-plantation-mk01",
+    "fawogae-plantation-mk02",
+    "fawogae-plantation-mk03",
+    "fawogae-plantation-mk04"
+  ],
+  "mukmoux": [
+    "mukmoux-pasture"
+  ],
+  "sand-extractor": [
+    "sand-extractor",
+    "sand-extractor-mk02",
+    "sand-extractor-mk03",
+    "sand-extractor-mk04"
+  ],
+  "nursery": [
+    "botanical-nursery",
+    "botanical-nursery-mk02",
+    "botanical-nursery-mk03",
+    "botanical-nursery-mk04"
+  ],
+  "ralesia": [
+    "ralesia-plantation-mk01",
+    "ralesia-plantation-mk02",
+    "ralesia-plantation-mk03",
+    "ralesia-plantation-mk04"
+  ],
+  "soil-extraction": [
+    "soil-extractormk01",
+    "soil-extractormk02",
+    "soil-extractormk03",
+    "soil-extractormk04"
+  ],
+  "ulric": [
+    "ulric-corral-mk01"
+  ],
+  "py-incineration": [
+    "py-burner"
+  ],
+  "py-venting": [
+    "py-gas-vent"
+  ],
+  "py-runoff": [
+    "py-sinkhole"
+  ],
+  "agitator": [
+    "agitator-mk01",
+    "agitator-mk02",
+    "agitator-mk03",
+    "agitator-mk04"
+  ],
+  "nmf": [
+    "nmf-mk01",
+    "nmf-mk02",
+    "nmf-mk03",
+    "nmf-mk04"
+  ],
+  "secondary-crusher": [
+    "secondary-crusher-mk01",
+    "secondary-crusher-mk02",
+    "secondary-crusher-mk03",
+    "secondary-crusher-mk04"
+  ],
+  "thickener": [
+    "thickener-mk01",
+    "thickener-mk02",
+    "thickener-mk03",
+    "thickener-mk04"
+  ],
+  "xyhiphoe": [
+    "xyhiphoe-pool-mk01",
+    "xyhiphoe-pool-mk02",
+    "xyhiphoe-pool-mk03",
+    "xyhiphoe-pool-mk04"
+  ],
+  "gas-separator": [
+    "gas-separator-mk01",
+    "gas-separator-mk02",
+    "gas-separator-mk03",
+    "gas-separator-mk04"
+  ],
+  "hydrocyclone": [
+    "hydrocyclone-mk01",
+    "hydrocyclone-mk02",
+    "hydrocyclone-mk03",
+    "hydrocyclone-mk04"
+  ],
+  "vacuum": [
+    "vacuum-pump-mk01",
+    "vacuum-pump-mk02",
+    "vacuum-pump-mk03",
+    "vacuum-pump-mk04"
+  ],
+  "screener": [
+    "automated-screener-mk01",
+    "automated-screener-mk02",
+    "automated-screener-mk03",
+    "automated-screener-mk04"
+  ],
+  "pan": [
+    "centrifugal-pan-mk01",
+    "centrifugal-pan-mk02",
+    "centrifugal-pan-mk03",
+    "centrifugal-pan-mk04"
+  ],
+  "compressor": [
+    "compressor-mk01",
+    "compressor-mk02",
+    "compressor-mk03",
+    "compressor-mk04"
+  ],
+  "genlab": [
+    "genlab-mk01",
+    "genlab-mk02",
+    "genlab-mk03",
+    "genlab-mk04"
+  ],
+  "jig": [
+    "jig-mk01",
+    "jig-mk02",
+    "jig-mk03",
+    "jig-mk04"
+  ],
+  "kmauts": [
+    "kmauts-enclosure-mk01",
+    "kmauts-enclosure-mk02",
+    "kmauts-enclosure-mk03",
+    "kmauts-enclosure-mk04"
+  ],
+  "grease": [
+    "grease-table-mk01",
+    "grease-table-mk02",
+    "grease-table-mk03",
+    "grease-table-mk04"
+  ],
+  "mixer": [
+    "mixer-mk01",
+    "mixer-mk02",
+    "mixer-mk03",
+    "mixer-mk04"
+  ],
+  "plankton": [
+    "plankton-farm",
+    "plankton-farm-mk02",
+    "plankton-farm-mk03",
+    "plankton-farm-mk04"
+  ],
+  "bio-reactor": [
+    "bio-reactor"
+  ],
+  "fusion-01": [
+    "fusion-reactor-mk01"
+  ],
+  "fusion-02": [
+    "fusion-reactor-mk02"
+  ],
+  "heat-exchanger": [
+    "py-heat-exchanger"
+  ],
+  "clay": [
+    "clay-pit-mk01",
+    "clay-pit-mk02",
+    "clay-pit-mk03",
+    "clay-pit-mk04"
+  ],
+  "chip": [
+    "chipshooter-mk01",
+    "chipshooter-mk02",
+    "chipshooter-mk03",
+    "chipshooter-mk04"
+  ],
+  "pcb": [
+    "pcb-factory-mk01",
+    "pcb-factory-mk02",
+    "pcb-factory-mk03",
+    "pcb-factory-mk04"
+  ],
+  "fbreactor": [
+    "fbreactor-mk01",
+    "fbreactor-mk02",
+    "fbreactor-mk03",
+    "fbreactor-mk04"
+  ],
+  "pa": [
+    "particle-accelerator-mk01",
+    "particle-accelerator-mk02",
+    "particle-accelerator-mk03",
+    "particle-accelerator-mk04"
+  ],
+  "electronic": [
+    "electronics-factory-mk01",
+    "electronics-factory-mk02",
+    "electronics-factory-mk03",
+    "electronics-factory-mk04"
+  ],
+  "pulp": [
+    "pulp-mill-mk01",
+    "pulp-mill-mk02",
+    "pulp-mill-mk03",
+    "pulp-mill-mk04"
+  ],
+  "nano": [
+    "nano-assembler-mk01",
+    "nano-assembler-mk02",
+    "nano-assembler-mk03",
+    "nano-assembler-mk04"
+  ],
+  "arum": [
+    "cadaveric-arum-mk01",
+    "cadaveric-arum-mk02",
+    "cadaveric-arum-mk03",
+    "cadaveric-arum-mk04"
+  ],
+  "kicalk": [
+    "kicalk-plantation"
+  ],
+  "moon": [
+    "moondrop-greenhouse-mk01",
+    "moondrop-greenhouse-mk02",
+    "moondrop-greenhouse-mk03",
+    "moondrop-greenhouse-mk04"
+  ],
+  "zipir": [
+    "zipir"
+  ],
+  "auog": [
+    "auog-paddock"
+  ],
+  "blackhole-energy": [
+    "magic-furnace"
+  ],
+  "quantum": [
+    "quantum-computer"
+  ],
+  "y-crushing-recipe": [
+    "y-crusher",
+    "y_crusher2"
+  ],
+  "yuoki-raw-material-recipe": [
+    "y-underground-drill",
+    "y_mc_underground_drill"
+  ],
+  "yuoki-formpress-recipe": [
+    "y_formpress2",
+    "y-heat-form-press"
+  ],
+  "yuoki-repair-recipe": [
+    "y_maintance_workshop"
+  ],
+  "yuoki-archaeology-wash": [
+    "y-dirtwasher",
+    "y_mc_dirtwasher"
+  ],
+  "yuoki-alien-recipe": [
+    "y-alien-infuser"
+  ],
+  "yuoki-atomics-recipe": [
+    "y-atomic-constructor"
+  ],
+  "yuoki-wonder-recipe": [
+    "y-atomic-quantum-composer"
+  ],
+  "yuoki_mox": [
+    "y_moxmixer"
+  ],
+  "yuoki_charger_recipe": [
+    "y_charger"
+  ],
+  "yuoki_smelter_recipe": [
+    "y_smelter"
+  ],
+  "yrcat_crystalize": [
+    "y_crystalizer"
+  ],
+  "yrcat_trockner": [
+    "y_trockner"
+  ],
+  "yuoki_mf": [
+    "y-obninsk-reactor",
+    "y_obninsk_mc"
+  ],
+  "yuoki_green_ultimate": [
+    "ye_green_ultimate"
+  ],
+  "yuoki_trader_ultimate": [
+    "y_trade_ultimate"
+  ],
+  "yuoki-stargate-recipe": [
+    "y-stargate",
+    "ye_trade_node"
+  ],
+  "yuoki-fame-recipe": [
+    "y-fame-gen",
+    "yi_hny2"
+  ],
+  "yuoki-watergen-recipe": [
+    "y-water-gen",
+    "y-water-gen-e",
+    "y_water_mixer"
+  ],
+  "yrcat_emulsion": [
+    "y_mixer_emu"
+  ],
+  "yrcat_hppump": [
+    "y_hppump"
+  ],
+  "yrcat-mf1c": [
+    "y-1stirling-engine",
+    "y-emotor-s"
+  ],
+  "yrcat-eg4": [
+    "y-electric-air-heater"
+  ],
+  "yrcat-pump": [
+    "y-mwater-pump"
+  ],
+  "yrcat_fluidhandle": [
+    "ye_canmachine"
+  ],
+  "yrcat_motor": [
+    "ye_emotor_m"
+  ],
+  "yrcat-farm": [
+    "ye_farm"
+  ],
+  "yrcat_meat": [
+    "ye_meatfarm"
+  ],
+  "yrcat_mfheatmotor_m": [
+    "ye_mfheatmotor_m"
+  ],
+  "yrcat-heater": [
+    "ye_overheater"
+  ],
+  "yrcat-fish": [
+    "ye_pool"
+  ],
+  "yrcat_turbine": [
+    "ye_sturbine"
+  ],
+  "yrcat_pump_2": [
+    "ye_wpump_m"
+  ],
+  "yrcat-mf1b": [
+    "y-ffe"
+  ],
+  "yrcat-mf1q": [
+    "y-quantrinum-reactor"
+  ],
+  "yrcat-mf1a": [
+    "y-sfe"
+  ],
+  "yrcat_icemaker": [
+    "ye_icemaker"
+  ],
+  "yrcat_science": [
+    "yie_science_blue_gen"
+  ],
+  "yrcat_dna": [
+    "ye_dnasplicer"
+  ],
+  "yrcat_smoker": [
+    "ye_smoker"
+  ],
+  "creative-mod_free-fluids": [
+    "creative-mod_fluid-source"
+  ],
+  "creative-mod_energy-absorption": [
+    "creative-mod_energy-void"
+  ],
+  "empty-recipe-category": [
+    "yarm-remote-viewer",
+    "yarm-remote-viewer-jetpack"
+  ]
+}

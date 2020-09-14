@@ -1,0 +1,31 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended", "tslint-plugin-prettier", "tslint-config-prettier"],
+  "jsRules": {},
+  "rules": {
+    "prettier": true,
+    "interface-name": false,
+    "object-literal-sort-keys": false,
+    "no-bitwise": false,
+    "no-curly-quotes": true,
+    "no-floating-promises": true,
+    "max-classes-per-file": false,
+    "ordered-imports": true,
+    "variable-name": {
+      "options": ["allow-leading-underscore", "ban-keywords", "check-format", "allow-pascal-case"]
+    },
+    "await-promise": true,
+    "no-switch-case-fall-through": true,
+    "relative-imports": true,
+    "enum-member-identifier-uppercase": true,
+    "no-duplicate-imports": true,
+    "array-type": [true, "array-simple"]
+  },
+  "linterOptions": {
+    "exclude": [
+      "./src/protobuf/**/*",
+      "./src/generate-integration-json.ts",
+      "./src/convertLinkMapping.ts"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+\input{settings} % add packages, settings, and declarations in settings.tex
+
+\begin{document}
+
+\lhead{Factorio Equations} 
+\rhead{Angel+Bob \\ Jacovie Rodriguez} 
+\cfoot{\thepage\ of \pageref{LastPage}}
+
+\section{}
+\begin{multicols*}{2}
+    \subsection{Notation}
+    The different available ores come in the following varietes
+    \[
+    \begin{Bmatrix}
+        \text{Saphirite}\\
+        \text{Jivolite}\\
+        \text{Stiratite}\\
+        \text{Crotinnium}\\
+        \text{Rubyte}\\
+        \text{Bobmonium}
+    \end{Bmatrix}
+    \otimes
+    \begin{Bmatrix}
+        \text{Ore}\\
+        \text{Crushed}\\
+        \text{Chunks}\\
+        \text{Crystals}\\
+        \text{Purified}
+    \end{Bmatrix}
+    \]
+    Shorthands used here include
+    \[
+        \begin{tabular}{ c | c }
+            Sa & Saphirite\\
+            Ji & Jivolite\\
+            St & Stiratite\\
+            Cr & Crotinnium\\
+            Ru & Rubyte\\
+            Bo & Bobmonium
+        \end{tabular}
+    \]
+    Modifiers used here include
+    \[
+        \begin{tabular}{ c | c }
+            \(\text{Sa}\) & Ore\\
+            \(\text{Sa}^{'}\) & Crushed\\
+            \(\text{Sa}^{*}\) & Chunks\\
+            \(\text{Sa}^{+}\) & Crystal\\
+            \(\text{Sa}^{\circ}\) & Purified
+        \end{tabular}
+    \]
+    \subsection{Recipes}
+    \subsubsection{Saphirite}
+    
+    \begin{align}
+        \text{Sa}_2 \left{1 , \frac{2}/\frac{3} , \frac{1}/\frac{2} , \frac{1}/\frac{3}\right}\text{Sa}^{'}_{2} \text{St}
+    \end{align}
+    
+\end{multicols*}
+
+
+\end{document}

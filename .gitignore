@@ -1,3 +1,6 @@
+# Local Export Exploration Data
+export/
+
 # Logs
 logs
 *.log
