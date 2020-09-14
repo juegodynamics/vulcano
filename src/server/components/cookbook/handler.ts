@@ -1,9 +1,10 @@
 import { Err } from 'src/server/components/_common';
 import { Entity } from 'src/types/factorio';
 import { intersect } from 'src/utils/arr';
-import { _t } from 'src/utils/lotype';
-import { ICookbookDAL, ICookbookHandler } from './types';
 import * as calc from 'src/utils/calc';
+import { _t } from 'src/utils/lotype';
+
+import { ICookbookDAL, ICookbookHandler } from './types';
 
 class CookbookHandler implements ICookbookHandler {
   cookbookDAL: ICookbookDAL;
@@ -24,10 +25,10 @@ class CookbookHandler implements ICookbookHandler {
       .getEntityNamesByCraftingCategory(recipe.category)
       .map(entityName => this.cookbookDAL.getEntity(entityName))
       .reduce<Record<number, Entity[]>>(
-        (entityBySpeed, nextEntity) => ({
-          ...entityBySpeed,
-          [nextEntity.crafting_speed]: entityBySpeed[nextEntity.crafting_speed]
-            ? [...entityBySpeed[nextEntity.crafting_speed], nextEntity]
+        (partialEntityBySpeed, nextEntity) => ({
+          ...partialEntityBySpeed,
+          [nextEntity.crafting_speed]: partialEntityBySpeed[nextEntity.crafting_speed]
+            ? [...partialEntityBySpeed[nextEntity.crafting_speed], nextEntity]
             : [nextEntity],
         }),
         {}

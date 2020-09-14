@@ -1,6 +1,8 @@
 import fs from 'fs';
 import path from 'path';
+
 import { Logger } from 'tslog';
+
 import { asyncForEach } from '../../utils/arr';
 import { TableParser } from '../../utils/lua/table';
 

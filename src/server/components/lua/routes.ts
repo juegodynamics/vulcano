@@ -1,8 +1,8 @@
-import { VulcanoContext } from 'src/context';
 import Router from 'express-promise-router';
+
 import LuaHandler from './handler';
 
-const LuaRouter = (_vulc: VulcanoContext) => {
+const LuaRouter = () => {
   const handler = new LuaHandler();
   const router = Router();
 

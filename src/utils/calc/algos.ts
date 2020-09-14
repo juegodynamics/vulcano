@@ -1,10 +1,10 @@
 import { Ratio } from './Ratio';
 
-export const closestRatio = (value: number, maxdenom: number = 10000): Ratio => {
-  let best = { numerator: 1, denominator: 1, error: Math.abs(value - 1) };
+export const closestRatio = (value: number, maxdenom = 10000): Ratio => {
+  const best = { numerator: 1, denominator: 1, error: Math.abs(value - 1) };
   for (let denominator = 1; best.error > 0 && denominator <= maxdenom; denominator++) {
-    let numerator = Math.round(value * denominator);
-    let error = Math.abs(value - numerator / denominator);
+    const numerator = Math.round(value * denominator);
+    const error = Math.abs(value - numerator / denominator);
     if (error >= best.error) continue;
     best.numerator = numerator;
     best.denominator = denominator;
@@ -18,10 +18,10 @@ export const lcm = (x: number, y: number): number => {
 };
 
 export const gcd = (a: number, b: number): number => {
-  var x = Math.abs(a);
-  var y = Math.abs(b);
+  let x = Math.abs(a);
+  let y = Math.abs(b);
   while (y) {
-    var t = y;
+    const t = y;
     y = x % y;
     x = t;
   }
@@ -32,7 +32,7 @@ export type Factors = Record<number, number>;
 export namespace Factors {
   export const getValue = (f: Factors) =>
     Object.entries(f).reduce((product, [factor, power]) => product * parseInt(factor) ** power, 1);
-  export const lcm = (f1: Factors, f2: Factors): Factors =>
+  export const getLCM = (f1: Factors, f2: Factors): Factors =>
     Object.keys(f1)
       .filter(f1key => !!f2[f1key])
       .reduce(

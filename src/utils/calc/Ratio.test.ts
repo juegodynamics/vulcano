@@ -1,4 +1,4 @@
-import { Ratio, IRatio } from './Ratio';
+import { IRatio, Ratio } from './Ratio';
 
 describe('Ratio methods:', () => {
   it('basic construction', () => {

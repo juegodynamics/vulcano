@@ -1,4 +1,5 @@
 import { TableParser } from 'src/utils/lua/table';
+
 import { ILuaHandler } from './types';
 
 class LuaHandler implements ILuaHandler {

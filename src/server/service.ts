@@ -1,7 +1,9 @@
 import bodyParser from 'body-parser';
-import { VulcanoContext } from 'src/context';
 import cookieParser from 'cookie-parser';
 import Router from 'express-promise-router';
+
+import { VulcanoContext } from 'src/context';
+
 import createAPI from './api';
 
 const VulcanoService = async (vulc: VulcanoContext) => {

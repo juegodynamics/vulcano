@@ -15,7 +15,6 @@ module.exports = {
     'prettier/@typescript-eslint',
     'prettier/react',
     'plugin:import/typescript',
-    'plugin:prettier/recommened',
   ],
   globals: {
     Promise: 'writable',
@@ -43,16 +42,16 @@ module.exports = {
       },
     ],
     'import/newline-after-import': 'error',
-    'sort-imports': [
-      'error',
-      {
-        ignoreCase: false,
-        ignoreDeclarationSort: false,
-        ignoreMemberSort: false,
-        memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
-        allowSeparatedGroups: false,
-      },
-    ],
+    // 'sort-imports': '[
+    //   'error',
+    //   {
+    //     ignoreCase: false,
+    //     ignoreDeclarationSort: false,
+    //     ignoreMemberSort: false,
+    //     memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
+    //     allowSeparatedGroups: false,
+    //   },
+    // ]',
     '@typescript-eslint/interface-name-prefix': 'off',
     'jest/no-mocks-import': 'off',
     '@typescript-eslint/no-explicit-any': 'off',

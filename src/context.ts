@@ -1,5 +1,6 @@
 import { Logger } from 'tslog';
-import { VulcanoConfig, LocalConfig } from './config';
+
+import { LocalConfig, VulcanoConfig } from './config';
 
 export interface VulcanoContext {
   config: VulcanoConfig;

@@ -1,8 +1,8 @@
-import { VulcanoContext } from 'src/context';
 import Router from 'express-promise-router';
+
 import EquatorHandler from './handler';
 
-const EquatorRouter = (_vulc: VulcanoContext) => {
+const EquatorRouter = () => {
   const handler = new EquatorHandler();
   const router = Router();
 

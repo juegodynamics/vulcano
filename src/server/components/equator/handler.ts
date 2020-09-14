@@ -1,4 +1,5 @@
 import * as calc from 'src/utils/calc';
+
 import { IEquatorHandler } from './types';
 
 class EquatorHandler implements IEquatorHandler {

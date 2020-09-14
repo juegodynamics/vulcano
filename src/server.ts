@@ -1,6 +1,7 @@
 import express from 'express';
-import VulcanoService from './server/service';
+
 import { VULC } from './context';
+import VulcanoService from './server/service';
 
 const vulc = VULC();
 

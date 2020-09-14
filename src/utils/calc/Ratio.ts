@@ -83,7 +83,7 @@ export class Ratio {
     return this.reduce();
   }
 
-  public approx(round: number = 4) {
+  public approx(round = 4) {
     return Math.round((this.numerator / this.denominator) * 10 ** round) / 10 ** round;
   }
 
@@ -102,10 +102,7 @@ export class Ratio {
    * Private
    * ================================================================
    */
-  private update = (
-    callback: (nIn: number, dIn: number) => [number, number],
-    reduce: boolean = false
-  ) => {
+  private update = (callback: (nIn: number, dIn: number) => [number, number], reduce = false) => {
     [this.numerator, this.denominator] = callback(this.numerator, this.denominator);
     return reduce ? this.reduce() : this;
   };
