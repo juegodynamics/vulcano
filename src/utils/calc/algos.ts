@@ -32,7 +32,8 @@ export type Factors = Record<number, number>;
 export namespace Factors {
   export const getValue = (f: Factors) =>
     Object.entries(f).reduce((product, [factor, power]) => product * parseInt(factor) ** power, 1);
-  export const getLCM = (f1: Factors, f2: Factors): Factors =>
+
+  export const getGCD = (f1: Factors, f2: Factors): Factors =>
     Object.keys(f1)
       .filter(f1key => !!f2[f1key])
       .reduce(
@@ -42,4 +43,71 @@ export namespace Factors {
         }),
         {}
       );
+
+  export const fromValue = (value: number) => new primeFactorizer(value).next();
+}
+
+class primeFactorizer {
+  private primes: number[];
+  private currentPrimeIndex: number;
+  private factors: Factors;
+  constructor(private value: number) {
+    this.currentPrimeIndex = 0;
+    this.primes = getPrimes(value);
+    this.factors = { 1: 1 };
+  }
+
+  next() {
+    console.log(
+      JSON.stringify({
+        value: this.value,
+        currentPrimeIndex: this.currentPrimeIndex,
+        factors: this.factors,
+      })
+    );
+    if (this.value % this.getCurrentPrime() === 0) {
+      this.value = this.value / this.getCurrentPrime();
+      this.plus1factor(this.getCurrentPrime());
+      return this.next();
+    }
+    if (!this.nextPrime()) {
+      return this.next();
+    }
+    this.plus1factor(this.value);
+    return this.factors;
+  }
+
+  plus1factor(factor: number) {
+    if (!this.factors[factor]) {
+      this.factors[factor] = 0;
+    }
+    this.factors[factor]++;
+  }
+
+  getCurrentPrime() {
+    return this.primes[this.currentPrimeIndex];
+  }
+
+  nextPrime() {
+    if (this.currentPrimeIndex >= this.primes.length) {
+      return false;
+    }
+    this.currentPrimeIndex++;
+    return true;
+  }
+}
+
+function getPrimes(max: number) {
+  const sieve: boolean[] = [];
+  const primes = [];
+  for (let i = 2; i <= max; ++i) {
+    if (!sieve[i]) {
+      // i has not been marked -- it is prime
+      primes.push(i);
+      for (let j = i << 1; j <= max; j += i) {
+        sieve[j] = true;
+      }
+    }
+  }
+  return primes;
 }

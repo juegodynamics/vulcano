@@ -6,7 +6,7 @@
   "scripts": {
     "checks": "npm run lint && npm test",
     "start-dev": "NODE_ENV=development nodemon -w src/server -w src/server.ts -e .ts --exec \"NODE_PATH='./' node --inspect -r ts-node/register src/server.ts\" | pino-pretty",
-    "test": "jest --forceExit",
+    "test": "NODE_PATH='./' jest --forceExit",
     "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx",
     "unzip": "ts-node src/scripts/unzip.ts",
     "transform": "ts-node src/dev/scripts/transform.ts"

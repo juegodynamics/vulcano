@@ -9,15 +9,15 @@ describe('lcm:', () => {
     {
       x: { 2: 1, 3: 2, 5: 1 },
       y: { 2: 1, 3: 2, 19: 1 },
-      out: Factors.getValue({ 2: 1, 3: 2 }),
+      out: Factors.getValue({ 2: 1, 3: 2, 5: 1, 19: 1 }),
     },
   ];
 
-  lcmCases.forEach(lcmCase => () => {
+  lcmCases.forEach(lcmCase => {
     const xValue = Factors.getValue(lcmCase.x);
     const yValue = Factors.getValue(lcmCase.y);
 
-    it(`lcm(${xValue},${yValue}=${lcmCase.out}`, () => {
+    it(`lcm(${xValue},${yValue}) = ${lcmCase.out}`, () => {
       expect(lcm(xValue, yValue)).toEqual(lcmCase.out);
     });
   });

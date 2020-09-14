@@ -2,7 +2,7 @@
 
 exports[`correct parsing of tables: entity example 1`] = `
 "{
-  \\"additional_pastable_entities\\": {},
+  \\"additional_pastable_entities\\": [],
   \\"alert_icon_shift\\": [
     0,
     0
@@ -79,7 +79,7 @@ exports[`correct parsing of tables: entity example 1`] = `
     \\"placeable-off-grid\\": true
   },
   \\"fluid_capacity\\": 0,
-  \\"fluidbox_prototypes\\": {},
+  \\"fluidbox_prototypes\\": [],
   \\"friendly_map_color\\": {
     \\"a\\": 255,
     \\"b\\": 145,
@@ -131,7 +131,7 @@ exports[`correct parsing of tables: entity example 1`] = `
   \\"radius\\": 0.28173785812901503,
   \\"reach_distance\\": 10,
   \\"reach_resource_distance\\": 2.7,
-  \\"remains_when_mined\\": {},
+  \\"remains_when_mined\\": [],
   \\"remove_decoratives\\": \\"automatic\\",
   \\"repair_speed_modifier\\": 1,
   \\"respawn_time\\": 10,

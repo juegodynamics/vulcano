@@ -1,10 +1,23 @@
-import { Recipe } from '../../../types';
+import { Recipe } from 'src/types/factorio';
+
 import { CookbookDAL_FromMaster, makeRecipeMaster } from './dal';
 
 describe('CookbookDAL_FromMaster:', () => {
   it('Executes correct indexing', () => {
     const dal = new CookbookDAL_FromMaster({
       recipeMaster: makeRecipeMaster({ mockRecipes: [MOCK_ORE_RECIPE] }),
+      recipeMasterIndex: {
+        ingredients: MOCK_ORE_RECIPE.ingredients.reduce(
+          (partial, next) => ({ ...partial, [next.name]: MOCK_ORE_RECIPE.name }),
+          {}
+        ),
+        products: MOCK_ORE_RECIPE.products.reduce(
+          (partial, next) => ({ ...partial, [next.name]: MOCK_ORE_RECIPE.name }),
+          {}
+        ),
+      },
+      entityMaster: {},
+      entityMasterIndex: { crafting_categories: {} },
     });
 
     expect(dal.getRecipeNamesByIngredientName(MOCK_ORE_RECIPE.ingredients[0].name)).toContain(
@@ -20,11 +33,12 @@ const MOCK_ORE_RECIPE: Recipe = {
   category: 'ore-sorting',
   ingredients: [
     {
-      amount: 6,
+      amount: 7,
       name: 'angels-ore2-chunk',
       type: 'item',
     },
   ],
+  energy: 1.5,
   products: [
     {
       amount: 1,
